@@ -1,11 +1,9 @@
-import {MainBg} from '../components/MainBg.js'
+import PainelLogin from '../components/PainelLogin'
 
 export default function Login() {
     return (
-        <>
-        <MainBg>
-
-        </MainBg>
-        </>
+        <div className='window'>
+            <PainelLogin/>
+        </div>
     )
 }
