@@ -1,3 +1,18 @@
+--- Desenvolvido durante o estágio na Faculdade de Tecnologia e Inovação SENAC - DF ---
+
+## ----- Aplicação em desenvolvimento -----
+
+Objetivo final:
+
+Interagir com a API de Back-End (link) para exibir a grade de aulas completa e editável
+
+Funcionalidades:
+
+Administradores podem atribuir cursos aos administradores responsáveis;
+Cordenadores podem editar a grade de seus cursos sempre que necessário;
+Professores podem informar os dias em que preferem ministrar aulas, para que os corde- nadores possam alocá-los da melhor maneira;
+Alunos podem consultar a grade sempre que estiverem conectados ao wi-fi da faculdade.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
