@@ -1,9 +1,11 @@
-import PainelLogin from '../components/PainelLogin'
+import Painel from '../components/Painel'
+import LoginForm from '@/components/LoginForm'
 
 export default function Login() {
     return (
         <div className='window'>
-            <PainelLogin/>
+            <Painel/>
+            
         </div>
     )
 }

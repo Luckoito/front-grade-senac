@@ -1,26 +1,29 @@
-import styles from '../styles/PainelLogin.module.css'
+import Styles from '../styles/Painel.module.css'
 import Image from 'next/image'
 import Logo from './assets/logo.png'
 
-export default function PainelLogin () {
+export default function LoginForm () {
+
+
+
     return (
         <>
 
-            <div className={styles.Painel}>
+            <div className={Styles.Painel}>
                 
                 <Image
-                    className={styles.PainelLogo}
+                    className={Styles.PainelLogo}
                     src={Logo}
                     height={150}
                     width={220}
                     alt='Logo SENAC'
                 />
 
-                <div className={'flexColumn '+styles["loginInfo"]}>
+                <div className={'flexColumn '+Styles["painelInfo"]}>
                     <h3>Grade Horária</h3>
                     <h5>Faculdade SENAC - DF</h5>
                 </div>
-                <div className={'flexColumn '+styles.loginForm}>
+                <div className={'flexColumn '+Styles.painelContent}>
 
                     <h3>Bem vindo(a)!</h3>
 
@@ -31,11 +34,11 @@ export default function PainelLogin () {
                         <input type='password' name='password'></input>
                     </form>
 
-                    <button className={styles.confirmButton}>Entrar</button>
+                    <button className={Styles.confirmButton}>Entrar</button>
 
-                    <div className={'flexRow '+styles.helpLinks}>
-                        <p className='linkText'>Esqueci a Senha</p>
-                        <p className='linkText'>Criar conta</p>
+                    <div className={'flexRow '+Styles.helpLinks}>
+                        <p className='linkText' id='forgotPassword'>Esqueci a Senha</p>
+                        <p className='linkText' id='createAccount'>Criar conta</p>
                     </div>
 
                 </div>
